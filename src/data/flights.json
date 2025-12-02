@@ -1,0 +1,497 @@
+{
+  "flights": [
+    {
+      "origin": "BOM",
+      "destination": "HYD",
+      "airline": "Akasa Air",
+      "airlineCode": "QP",
+      "flightNumber": "QP897",
+      "departureTime": "2024-11-25T15:39:00",
+      "arrivalTime": "2024-11-25T17:30:00",
+      "durationMinutes": 111,
+      "price": 13358,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/qp.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "CU",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK356",
+      "departureTime": "2024-11-25T12:29:00",
+      "arrivalTime": "2024-11-25T14:09:00",
+      "durationMinutes": 100,
+      "price": 9198,
+      "stops": 0,
+      "refundable": true,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "LKO",
+      "destination": "DEL",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI512",
+      "departureTime": "2024-11-25T09:36:00",
+      "arrivalTime": "2024-11-25T12:06:00",
+      "durationMinutes": 150,
+      "price": 4259,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Chennai",
+      "destination": "DEL",
+      "airline": "IndiGo",
+      "airlineCode": "6E",
+      "flightNumber": "6E214",
+      "departureTime": "2024-11-25T09:16:00",
+      "arrivalTime": "2024-11-25T11:30:00",
+      "durationMinutes": 134,
+      "price": 11806,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/6e.png"
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK837",
+      "departureTime": "2024-11-25T13:13:00",
+      "arrivalTime": "2024-11-25T15:49:00",
+      "durationMinutes": 156,
+      "price": 5100,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK434",
+      "departureTime": "2024-11-25T10:52:00",
+      "arrivalTime": "2024-11-25T13:33:00",
+      "durationMinutes": 161,
+      "price": 13422,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "Lko",
+      "airline": "Akasa Air",
+      "airlineCode": "QP",
+      "flightNumber": "QP686",
+      "departureTime": "2024-11-25T15:00:00",
+      "arrivalTime": "2024-11-25T16:59:00",
+      "durationMinutes": 119,
+      "price": 5044,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/qp.png"
+    },
+    {
+      "origin": "Pune",
+      "destination": "DEL",
+      "airline": "Akasa Air",
+      "airlineCode": "QP",
+      "flightNumber": "QP256",
+      "departureTime": "2024-11-25T06:05:00",
+      "arrivalTime": "2024-11-25T08:23:00",
+      "durationMinutes": 138,
+      "price": 14995,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/qp.png"
+    },
+    {
+      "origin": "Noida",
+      "destination": "DEL",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI371",
+      "departureTime": "2024-11-25T06:25:00",
+      "arrivalTime": "2024-11-25T08:39:00",
+      "durationMinutes": 134,
+      "price": 10097,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Kanpur",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK725",
+      "departureTime": "2024-11-25T13:47:00",
+      "arrivalTime": "2024-11-25T16:40:00",
+      "durationMinutes": 173,
+      "price": 14581,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "Mum",
+      "destination": "DEL",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI923",
+      "departureTime": "2024-11-25T09:41:00",
+      "arrivalTime": "2024-11-25T11:58:00",
+      "durationMinutes": 137,
+      "price": 14177,
+      "stops": 0,
+      "refundable": true,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Del",
+      "destination": "Bom",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK979",
+      "departureTime": "2024-11-25T18:30:00",
+      "arrivalTime": "2024-11-25T20:18:00",
+      "durationMinutes": 108,
+      "price": 9116,
+      "stops": 0,
+      "refundable": true,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "Pune",
+      "destination": "HYD",
+      "airline": "SpiceJet",
+      "airlineCode": "SG",
+      "flightNumber": "SG554",
+      "departureTime": "2024-11-25T14:19:00",
+      "arrivalTime": "2024-11-25T16:01:00",
+      "durationMinutes": 102,
+      "price": 14590,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/sg.png"
+    },
+    {
+      "origin": "PUNE",
+      "destination": "JAI",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI160",
+      "departureTime": "2024-11-25T16:21:00",
+      "arrivalTime": "2024-11-25T19:10:00",
+      "durationMinutes": 169,
+      "price": 4300,
+      "stops": 0,
+      "refundable": true,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Hyd",
+      "destination": "DEL",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI767",
+      "departureTime": "2024-11-25T16:54:00",
+      "arrivalTime": "2024-11-25T19:47:00",
+      "durationMinutes": 173,
+      "price": 15331,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK759",
+      "departureTime": "2024-11-25T13:38:00",
+      "arrivalTime": "2024-11-25T15:28:00",
+      "durationMinutes": 110,
+      "price": 16901,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK359",
+      "departureTime": "2024-11-25T06:34:00",
+      "arrivalTime": "2024-11-25T08:16:00",
+      "durationMinutes": 102,
+      "price": 17609,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "Udaipur",
+      "destination": "DEL",
+      "airline": "Akasa Air",
+      "airlineCode": "QP",
+      "flightNumber": "QP917",
+      "departureTime": "2024-11-25T13:44:00",
+      "arrivalTime": "2024-11-25T16:06:00",
+      "durationMinutes": 142,
+      "price": 5774,
+      "stops": 0,
+      "refundable": true,
+      "logo": "https://logos.com/qp.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "Raipur",
+      "airline": "SpiceJet",
+      "airlineCode": "SG",
+      "flightNumber": "SG979",
+      "departureTime": "2024-11-25T13:45:00",
+      "arrivalTime": "2024-11-25T16:44:00",
+      "durationMinutes": 179,
+      "price": 2908,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/sg.png"
+    },
+    {
+      "origin": "Nashik",
+      "destination": "Pune",
+      "airline": "SpiceJet",
+      "airlineCode": "SG",
+      "flightNumber": "SG501",
+      "departureTime": "2024-11-25T10:41:00",
+      "arrivalTime": "2024-11-25T12:18:00",
+      "durationMinutes": 97,
+      "price": 2931,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/sg.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "Kerala",
+      "airline": "SpiceJet",
+      "airlineCode": "SG",
+      "flightNumber": "SG260",
+      "departureTime": "2024-11-25T17:51:00",
+      "arrivalTime": "2024-11-25T19:30:00",
+      "durationMinutes": 99,
+      "price": 12038,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/sg.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "Allahabad",
+      "airline": "SpiceJet",
+      "airlineCode": "SG",
+      "flightNumber": "SG932",
+      "departureTime": "2024-11-25T11:18:00",
+      "arrivalTime": "2024-11-25T13:35:00",
+      "durationMinutes": 137,
+      "price": 14983,
+      "stops": 1,
+      "refundable": false,
+      "logo": "https://logos.com/sg.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "Mohali",
+      "airline": "Air India",
+      "airlineCode": "AI",
+      "flightNumber": "AI788",
+      "departureTime": "2024-11-25T08:11:00",
+      "arrivalTime": "2024-11-25T10:01:00",
+      "durationMinutes": 110,
+      "price": 14093,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/ai.png"
+    },
+    {
+      "origin": "Pune",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK476",
+      "departureTime": "2024-11-25T18:19:00",
+      "arrivalTime": "2024-11-25T20:57:00",
+      "durationMinutes": 158,
+      "price": 4052,
+      "stops": 1,
+      "refundable": true,
+      "logo": "https://logos.com/uk.png"
+    },
+    {
+      "origin": "BOM",
+      "destination": "DEL",
+      "airline": "Vistara",
+      "airlineCode": "UK",
+      "flightNumber": "UK377",
+      "departureTime": "2024-11-25T17:02:00",
+      "arrivalTime": "2024-11-25T19:43:00",
+      "durationMinutes": 161,
+      "price": 13673,
+      "stops": 0,
+      "refundable": false,
+      "logo": "https://logos.com/uk.png"
+    }
+  ],
+  "filters": {
+    "priceRanges": [
+      {
+        "label": "\u20b90\u2013\u20b93,000",
+        "min": 0,
+        "max": 3000
+      },
+      {
+        "label": "\u20b93,000\u2013\u20b96,000",
+        "min": 3001,
+        "max": 6000
+      },
+      {
+        "label": "\u20b96,000\u2013\u20b910,000",
+        "min": 6001,
+        "max": 10000
+      },
+      {
+        "label": "\u20b910,000\u2013\u20b920,000",
+        "min": 10001,
+        "max": 20000
+      }
+    ],
+    "departureSlots": [
+      {
+        "label": "00:00\u201306:00",
+        "min": "00:00",
+        "max": "06:00"
+      },
+      {
+        "label": "06:00\u201312:00",
+        "min": "06:01",
+        "max": "12:00"
+      },
+      {
+        "label": "12:00\u201318:00",
+        "min": "12:01",
+        "max": "18:00"
+      },
+      {
+        "label": "18:00\u201324:00",
+        "min": "18:01",
+        "max": "24:00"
+      }
+    ],
+    "stops": [
+      {
+        "label": "Non-stop",
+        "value": 0
+      },
+      {
+        "label": "1 Stop",
+        "value": 1
+      }
+    ],
+    "airlines": [
+      {
+        "label": "Air India",
+        "code": "AI"
+      },
+      {
+        "label": "IndiGo",
+        "code": "6E"
+      },
+      {
+        "label": "Vistara",
+        "code": "UK"
+      },
+      {
+        "label": "SpiceJet",
+        "code": "SG"
+      },
+      {
+        "label": "Akasa Air",
+        "code": "QP"
+      }
+    ],
+    "refundable": [
+      {
+        "label": "Refundable",
+        "value": true
+      },
+      {
+        "label": "Non-Refundable",
+        "value": false
+      }
+    ]
+  },
+  "metadata": {
+    "airlines": [
+      {
+        "code": "AI",
+        "name": "Air India",
+        "logo": "https://logos.com/ai.png"
+      },
+      {
+        "code": "6E",
+        "name": "IndiGo",
+        "logo": "https://logos.com/6e.png"
+      },
+      {
+        "code": "UK",
+        "name": "Vistara",
+        "logo": "https://logos.com/uk.png"
+      },
+      {
+        "code": "SG",
+        "name": "SpiceJet",
+        "logo": "https://logos.com/sg.png"
+      },
+      {
+        "code": "QP",
+        "name": "Akasa Air",
+        "logo": "https://logos.com/qp.png"
+      }
+    ],
+    "airports": {
+      "BOM": "Chhatrapati Shivaji Maharaj International Airport",
+      "DEL": "Indira Gandhi International Airport"
+    },
+    "sortOptions": [
+      {
+        "label": "Price: Low to High",
+        "value": "priceAsc"
+      },
+      {
+        "label": "Price: High to Low",
+        "value": "priceDesc"
+      },
+      {
+        "label": "Duration: Shortest",
+        "value": "durationAsc"
+      },
+      {
+        "label": "Departure: Earliest",
+        "value": "departAsc"
+      },
+      {
+        "label": "Arrival: Earliest",
+        "value": "arriveAsc"
+      }
+    ]
+  }
+}
