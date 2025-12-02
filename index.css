@@ -1,0 +1,255 @@
+:root{
+  --accent:#22c1c3;
+  --muted:#888;
+  --bg:#f6f8fa;
+  --card:#fff;
+}
+
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#222}
+.sticky-header{
+  position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #eee;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+
+.container{max-width:1100px;margin:18px auto;display:flex;gap:20px;padding:0 16px}
+.left-panel{width:280px}
+.filters-card{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.04)}
+.clear-btn{margin-top:12px;padding:8px 12px;background:#fff;border:1px solid #ddd;border-radius:6px;cursor:pointer}
+.flight-count{margin-top:8px;color:var(--muted)}
+
+.results{flex:1}
+.sortbar{background:transparent;padding:8px 0;margin-bottom:12px;display:flex;align-items:center}
+.sort-options{display:flex;gap:8px;flex-wrap:wrap}
+.sort-btn{background:#fff;border:1px solid #e6e6e6;padding:8px 10px;border-radius:6px;cursor:pointer}
+.sort-btn.active{border-color:var(--accent);box-shadow:0 2px 8px rgba(34,193,195,0.08)}
+
+.flight-list{display:flex;flex-direction:column;gap:12px}
+.flight-card{display:flex;align-items:center;background:var(--card);padding:12px;border-radius:8px;border:1px solid #eee}
+.flight-card .left{width:120px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.airline-logo{width:40px;height:40px;object-fit:contain}
+.airline-name{font-size:13px;color:var(--muted)}
+
+.flight-card .middle{flex:1;padding:0 12px}
+.times{display:flex;align-items:center;justify-content:space-between}
+.time{font-weight:700}
+.city{color:var(--muted);font-size:12px}
+.duration{text-align:center;color:var(--muted)}
+
+.flight-card .right{text-align:right;min-width:120px;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.price{font-weight:500;font-size:18px}
+.book-btn{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:6px 10px;border-radius:6px;cursor:pointer}
+
+
+
+
+/* HEADER 1 — Top Navigation Bar */
+.header-top{
+  background:#0fb09f;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 20px;
+  color:#fff;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:700;
+  color:#fff;
+  text-decoration:none;
+  letter-spacing:4px;
+}
+
+.top-nav a{
+  margin:0 12px;
+  font-weight:600;
+  text-decoration:none;
+  color:#fff;
+}
+
+.login-btn{
+  border:1px solid rgba(255,255,255,0.4);
+  background:transparent;
+  padding:6px 12px;
+  color:#fff;
+  border-radius:6px;
+  font-weight:600;
+}
+
+
+/* Increase spacing between boxes */
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;           /* increased from 10px → NOW MORE SPACING */
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.08);
+}
+
+
+/* HEADER 2 — compact height & full-width search layout */
+.header-second {
+  background: linear-gradient(90deg,#0fb09f,#12b6a8,#16c7b7);
+  padding: 12px 20px 18px;     /* SMALLER vertical padding */
+  color: #fff;
+  position: relative;
+}
+
+
+/* SEARCH ROW — bigger horizontal gap + full width */
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;                 
+  background: #fff;
+  padding: 12px 14px;        
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+  width: 100%;
+}
+
+/* Make input boxes stretch more evenly */
+.field {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  padding: 0 10px;
+  flex: 1;                  
+  min-width: 150px;
+}
+
+/* Input styling */
+.field input,
+.field select {
+  padding: 8px 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* swap button BETWEEN boxes */
+.swap-center {
+  border: none;
+  background: #e7fcf6;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  color: #15bfae;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+/* search button at right */
+.search-btn {
+  background: #00c78f;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+
+/* ----------------------------
+  Adults select: left label + right arrow
+  (no markup changes)
+-----------------------------*/
+.header-second .search-row .field.small select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* custom arrow (white stroke); placed on the right */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23FFFFFF' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center; /* arrow on the right */
+
+  padding-left: 12px;   /* keep text hugging left */
+  padding-right: 40px;  /* reserve room for arrow */
+  text-align: left;     /* force left alignment of option label */
+  cursor: pointer;
+}
+
+/* If your select's parent .field has internal padding, adjust selector to target the actual select */
+.header-second .search-row .field.small > select,
+.header-second .search-row .field.small select {
+  box-sizing: border-box;
+}
+
+/* ----------------------------
+  Responsive: make Adults field ~half width
+  on small screens and allow row to wrap
+-----------------------------*/
+@media (max-width: 768px) {
+  /* allow wrapping so fields can stack */
+  .header-second .search-row {
+    flex-wrap: wrap;
+    gap: 12px; /* slightly smaller gap on mobile */
+  }
+
+  /* adults field takes roughly half width (50% minus gap) */
+  .header-second .search-row .field.small {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+  /* other fields become full-width when wrapped */
+  .header-second .search-row .field {
+    flex: 1 1 100%;
+    min-width: 160px;
+  }
+
+  /* search button full width on mobile */
+  .header-second .search-row .search-btn {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  /* tighter arrow spacing for narrower select */
+  .header-second .search-row .field.small select {
+    padding-right: 36px;
+    background-position: right 10px center;
+  }
+}
+
+/*  If for some reason another rule is still overriding, you can uncomment the !important lines below
+    (use only if needed):
+.header-second .search-row .field.small { flex: 0 0 48% !important; max-width: 48% !important; }
+*/
+
+.airline-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 6px;
+}
+
+.airline-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef3f5;
+  color: #0f172a;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
